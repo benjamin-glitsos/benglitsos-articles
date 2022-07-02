@@ -1,9 +1,9 @@
 /*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
+ * Prefixed by https://autoprefixer.github.io
+ * PostCSS: v7.0.29,
+ * Autoprefixer: v9.7.6
+ * Browsers: last 4 version
+ */
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
@@ -46,18 +46,21 @@ template {
 
 a {
     background-color: transparent;
+    color: #006dff;
+    text-decoration: none;
 }
 
 a:active,
 a:hover {
     outline-width: 0;
+    text-decoration: underline;
 }
 
 abbr[title] {
     border-bottom: none;
     text-decoration: underline;
     -webkit-text-decoration: underline dotted;
-            text-decoration: underline dotted;
+    text-decoration: underline dotted;
 }
 
 b,
@@ -68,11 +71,6 @@ strong {
 
 dfn {
     font-style: italic;
-}
-
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
 }
 
 mark {
@@ -100,10 +98,6 @@ sup {
     top: -0.5em;
 }
 
-img {
-    border-style: none;
-}
-
 svg:not(:root) {
     overflow: hidden;
 }
@@ -122,7 +116,7 @@ figure {
 
 hr {
     -webkit-box-sizing: content-box;
-            box-sizing: content-box;
+    box-sizing: content-box;
     height: 0;
     overflow: visible;
 }
@@ -180,7 +174,7 @@ fieldset {
 
 legend {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     color: inherit;
     display: table;
     max-width: 100%;
@@ -195,7 +189,7 @@ textarea {
 [type="checkbox"],
 [type="radio"] {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 0;
 }
 
@@ -226,24 +220,24 @@ textarea {
 
 html {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     overflow-y: scroll;
     font-family: "Lato", sans-serif;
 }
 
 * {
     -webkit-box-sizing: inherit;
-            box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 *:before {
     -webkit-box-sizing: inherit;
-            box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 *:after {
     -webkit-box-sizing: inherit;
-            box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
@@ -251,7 +245,7 @@ body {
     font-weight: normal;
     word-wrap: break-word;
     -webkit-font-kerning: normal;
-            font-kerning: normal;
+    font-kerning: normal;
     -ms-font-feature-settings: "kern", "liga", "clig", "calt";
     -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
     font-feature-settings: "kern", "liga", "clig", "calt";
@@ -269,6 +263,7 @@ body {
 }
 
 img {
+    border-style: none;
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -288,13 +283,13 @@ h1 {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.45rem;
+    margin-bottom: 2.175rem;
     color: inherit;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 2rem;
     line-height: 1.1;
-    color: #6474e5;
+    color: #006dff;
 }
 
 h2 {
@@ -506,7 +501,7 @@ blockquote {
     padding-top: 0;
     margin-bottom: 1.45rem;
     font-weight: bold;
-    color: #6474e5;
+    color: #006dff;
     font-size: 1.1em;
     font-family: "Source Sans Pro", sans-serif;
 }
