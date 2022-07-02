@@ -696,7 +696,7 @@ td:last-child {
     padding-right: 0;
 }
 
-.full-bleed {
+.full-bleed-image {
     width: 100vw;
     overflow-y: auto;
     position: relative;
@@ -707,8 +707,11 @@ td:last-child {
     text-align: center;
 }
 
-.full-bleed > * {
+.full-bleed-image > img {
     display: inline-block;
     padding-left: 1.45rem;
     padding-right: 1.45rem;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
 }
