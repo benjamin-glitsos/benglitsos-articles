@@ -715,3 +715,7 @@ td:last-child {
     max-width: 1000px;
     height: auto;
 }
+
+.full-bleed-image.small > img {
+    max-width: 800px;
+}
