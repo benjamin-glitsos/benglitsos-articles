@@ -320,7 +320,7 @@ h3 {
     color: inherit;
     font-weight: bold;
     text-rendering: optimizeLegibility;
-    font-size: 1.31951rem;
+    font-size: 1.25rem;
     line-height: 1.1;
 }
 
@@ -615,9 +615,9 @@ blockquote *:last-child {
     margin-bottom: 0;
 }
 
-li *:last-child {
-    margin-bottom: 0;
-}
+/* li *:last-child { */
+/*     margin-bottom: 0; */
+/* } */
 
 p *:last-child {
     margin-bottom: 0;
